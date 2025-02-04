@@ -40,7 +40,7 @@ def query_db(db_path, query_field=None, query_value=None):
 
 if __name__ == "__main__":
     # Main execution logic
-        file_path = './user_data.csv'
+    file_path = './user_data.csv'
     db_path='./user_db.json'   
     data = read_csv(file_path)
     insert_into_db(data, db_path)
