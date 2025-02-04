@@ -14,7 +14,7 @@ def read_csv(file_path):
     
 
 
-def insert_into_db(data, db_path):
+def insert_into_db(data, db_path=None):
     # Insert data into TinyDB
     if not data:
         raise ValueError('Data must not be empty')
